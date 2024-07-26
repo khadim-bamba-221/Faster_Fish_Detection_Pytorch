@@ -1,0 +1,18 @@
+# repertoires des images 
+TRAIN_DIR_IMAGES: 'data/train/images'
+TRAIN_DIR_LABELS: 'data/train/annotations'
+VALID_DIR_IMAGES: 'data/valid/images'
+VALID_DIR_LABELS: 'data/valid/annotations'
+
+# Classes
+CLASSES: [
+    '__background__',
+    'fish', 'jellyfish', 'penguin',
+    'shark', 'puffin', 'stingray',
+    'starfish'
+]
+
+# Nombre de classe + background
+NC: 8
+
+SAVE_VALID_PREDICTION_IMAGES: True
